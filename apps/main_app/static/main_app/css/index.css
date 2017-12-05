@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.top-bar {
+  width: 100vw;
+  display: inline-block;
+  border: 2px solid blue;
+  position: relative;
+  padding: 2% 0%;
+}
+.nav-bar {
+  border: 2px solid black;
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  right: 0;
+  text-align: center;
+
+}
+.title {
+  font-size: 1.3em;
+  border: 2px solid red;
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  padding-left: 2%;
+}
+.search-bar {
+  border: 2px solid green;
+  display: inline-block;
+  position: absolute;
+  right: 22%;
+}
+.search-input {
+  width: 30vw;
+}
+.categories {
+  position: absolute;
+  right: 0;
+}
+.categories ul {
+  list-style-type: none;
+
+}
+.middle-section {
+  width: 100vw;
+  height: auto;
+  border: 2px solid purple;
+  display: inline-block;
+}
+.timeline {
+  width: 90vw;
+  margin: 0 auto;
+  height: 20vh;
+  border: 2px solid orange;
+  text-align: center;
+  position: relative;
+
+}
+.char-spot {
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  height: 30vh;
+  width: 30vw;
+  border: 2px solid blue;
+}
+.info-spot {
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 30vh;
+  width: 30vw;
+  border: 2px solid blue;
+}
+.spot-wrap {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  border: 2px solid red;
+  width: 100%;
+}
+.bottom-section {
+  width: 100vw;
+  position: relative;
+  display: inline-block;
+  border: 2px solid green;
+  height: 30vh;
+}
